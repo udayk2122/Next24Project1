@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVULA UDAY KIRAN - Dynamic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">AVULA UDAY KIRAN</h1>
+            <p class="hero-subtitle">Front-end Developer</p>
+            <a href="#about" class="cta-button">Explore My Work <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <button id="menu-toggle" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+            <button id="close-menu-btn" class="close-menu-btn"><i class="fas fa-times"></i></button>
+            <li><a href="#home" class="nav-link active" data-target="home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-target="about">About</a></li>
+            <li><a href="#experience" class="nav-link" data-target="experience">Experience</a></li>
+            <li><a href="#focus" class="nav-link" data-target="focus">What I Do</a></li>
+            <li><a href="#skills" class="nav-link" data-target="skills">Skills</a></li>
+            <li><a href="#projects" class="nav-link" data-target="projects">Projects</a></li>
+            <li><a href="#internships" class="nav-link" data-target="internships">Internships</a></li>
+            <li><a href="#certificates" class="nav-link" data-target="certificates">Certificates</a></li>
+            <li><a href="#contact" class="nav-link" data-target="contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="content-section">
+            <h2>About Me <i class="fas fa-user-tie"></i></h2>
+            <div class="about-container">
+                <div>
+                    <p>A detail-oriented Data Science student with practical experience in frontend technologies
+                        including HTML, CSS, JavaScript ,React.js. With beginner-level skills in Python and Java, I am
+                        enthusiastic about applying a diverse skill set to solve complex problems. I am keenly
+                        interested in opportunities within Web Development, Data Science, Data Analysis, and Software
+                        Development to learn, grow, and contribute effectively.</p>
+                    <div class="about-extras">
+                        <div class="extra-item">
+                            <h4><i class="fas fa-language"></i> Languages</h4>
+                            <p>English, Telugu, Hindi</p>
+                        </div>
+                        <div class="extra-item">
+                            <h4><i class="fas fa-heart"></i> Hobbies</h4>
+                            <p>Playing Cricket, Travelling, Reading books</p>
+                        </div>
+                    </div>
+                    <div class="resume-buttons about-resume">
+                        <button id="view-resume-btn" class="resume-btn btn-view">
+                            <i class="fas fa-eye"></i> View Resume
+                        </button>
+                        <a href="./Uday_web_development_resume (2).pdf" download="Uday_web_development_resume.pdf"
+                            class="resume-btn btn-download">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <img src="./profile1.jpg" alt="Your Profile Picture" class="profile-pic">
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <h2>Experience <i class="fas fa-briefcase"></i></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <h3>Python Full Stack Intern</h3>
+                        <p class="timeline-date"><strong>Robowaves (A Unit of Test Yantra) | Aug 2025 - Oct 2025
+                                (Onsite)</strong></p>
+                        <ul>
+                            <li>Completed initial training on Agile methodologies, Git, and GitHub for effective version
+                                control.</li>
+                            <li>Contributed as a Front-end Developer on a comprehensive College Management System
+                                project.</li>
+                            <li>Applied Agile methodologies to participate in team sprints, ensuring iterative progress
+                                and timely feature delivery.</li>
+                            <li>Utilized Git and GitHub for version control, managing code branches, and facilitating
+                                seamless team collaboration.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <h3>Web Development Intern</h3>
+                        <p class="timeline-date"><strong>Next24tech Technology & Services | Aug 2025 - Oct 2025
+                                (Remote)</strong></p>
+                        <ul>
+                            <li>Assigned to the Front-end Developer role to contribute to key company projects.</li>
+                            <li>Developed key features for a large-scale E-commerce website and a responsive E-learning
+                                platform.</li>
+                            <li>Responsible for translating UI mockups into functional, pixel-perfect code using modern
+                                web technologies.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="focus" class="content-section">
+            <h2>What I Do <i class="fas fa-laptop-code"></i></h2>
+            <div class="focus-container">
+                <div class="focus-box">
+                    <div class="focus-icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>I build responsive and dynamic websites with a focus on clean code and great user experiences.
+                    </p>
+                </div>
+                <div class="focus-image-container">
+                    <img src="./Focused Developer with Data Visualization - Copy.png" alt="Uday Kiran"
+                        class="focus-image">
+                </div>
+                <div class="focus-box">
+                    <div class="focus-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h3>Data Science</h3>
+                    <p>I analyze data to uncover insights, build predictive models, and create meaningful
+                        visualizations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2>Core Skills <i class="fas fa-cogs"></i></h2>
+
+            <h3 class="subsection-title">Programming & Markup</h3>
+            <div class="skills-grid">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Tailwind CSS</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">DevOps</div>
+            </div>
+
+            <h3 class="subsection-title">Frameworks & Libraries</h3>
+            <div class="skills-grid">
+                <div class="skill-item">React.js</div>
+                <div class="skill-item">Agile methodology/(SDLC)</div>
+                <div class="skill-item">Scrum</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Numpy & pandas</div>
+                <div class="skill-item">MatplotLib</div>
+            </div>
+
+            <h3 class="subsection-title">Tools</h3>
+            <div class="skills-grid">
+                <div class="skill-item">Git & GitHub</div>
+                <div class="skill-item">Figma</div>
+                <div class="skill-item">Tableau</div>
+                <div class="skill-item">Excel</div>
+                <div class="skill-item">Word</div>
+                <div class="skill-item">PowerPoint</div>
+                <div class="skill-item">VS Code</div>
+                <div class="skill-item">Google Collab</div>
+            </div>
+
+            <h3 class="subsection-title">Soft Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item">Team Collaboration</div>
+                <div class="skill-item">Problem Solving</div>
+                <div class="skill-item">Time Management</div>
+                <div class="skill-item">Critical Thinking</div>
+                <div class="skill-item">Attention To Details</div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Projects <i class="fas fa-folder-open"></i></h2>
+            <div class="card-container">
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop');">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Academic Content Management System <i class="fas fa-book-open"></i></h3>
+                        <p>Developing a Project using HTML, CSS, JavaScript and Python that helps manage academic
+                            content in a better and more organized way, allowing role-based access for admins, faculty,
+                            and students.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/Ankitkumar7311/E-Learning.git" class="card-link">View on GitHub
+                                <i class="fab fa-github"></i></a>
+                            <a href="#" class="card-link">View Live Demo <i class="fas fa-desktop"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./xiaomi.png');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Website Clones <i class="fas fa-clone"></i></h3>
+                        <p>Enhanced frontend technical skills by cloning the Xiaomi and Apple store websites using HTML,
+                            CSS, and JavaScript.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/udayk2122/Apple.git" class="card-link">View on GitHub <i
+                                    class="fab fa-github"></i></a>
+                            <a href="#" class="card-link">View Live Demo <i class="fas fa-desktop"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./text_trans.png');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3> Global-Translate: A React & Tailwind Application </h3>
+                        <p>A modern, real-time text translator built with React and Tailwind CSS for seamless
+                            multi-language communication. This project demonstrates efficient state management and live
+                            API integration in a clean, responsive user interface.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/udayk2122/codex_intern_tasks.git" class="card-link">View on
+                                GitHub <i class="fab fa-github"></i></a>
+                            <a href="#" class="card-link">View Live Demo <i class="fas fa-desktop"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="internships" class="content-section">
+            <h2>Internships <i class="fas fa-building"></i></h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Python Full Stack Intern</h3>
+                    <p><strong>Robowaves "A Unit of Test Yantra Software Solutions (India) Pvt.Ltd |Aug 2025 - Oct 2025
+                            (Onsite)</strong></p>
+                    <ul>
+                        <li>Completed initial training on Agile methodologies, Git, and GitHub for effective version
+                            control.</li>
+                        <li>Actively contributing to the development of a comprehensive College Management System as a
+                            Front-end Developer.</li>
+                        <li>Collaborating within an Agile development environment to meet project milestones and deliver
+                            features iteratively.</li>
+                        <li>Utilizing Git and GitHub for version control, managing code branches, and ensuring seamless
+                            team collaboration.</li>
+                        <li>Focused on translating UI/UX designs into responsive and interactive components to create an
+                            intuitive experience for both students and faculty.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Web Development Intern</h3>
+                    <p><strong>Next24tech Technology & Services | Aug 2025 - Oct 2025 (Remote)</strong></p>
+                    <ul>
+                        <li>Assigned to the Front-end Developer role to contribute to key company projects.</li>
+                        <li>Developed features for a large-scale E-commerce website and a responsive E-learning
+                            platform.</li>
+                        <li>Responsible for translating UI mockups into functional, pixel-perfect code using modern web
+                            technologies.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Front-End Development Intern</h3>
+                    <p><strong>Cognifyz Technologies | August 2025 (virtual)</strong></p>
+                    <ul>
+                        <li>Praised for remarkable dedication, sincerity, and a strong desire to learn throughout the
+                            internship.</li>
+                        <li>Approached new assignments and challenges with enthusiasm, showcasing a passion for
+                            Front-End Development.</li>
+                        <li>Demonstrated exceptional coordination, effective communication skills, and an impressive
+                            attention to detail.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Front-End Developer Intern</h3>
+                    <p><strong>CODEXINTERN | August 2025 (Virtual)</strong></p>
+                    <ul>
+                        <li>Made a valuable contribution to the organization and received a strong recommendation from
+                            the Co-Founder.</li>
+                        <li>Leveraged excellent analytical skills and quickly adapted to emerging technologies,
+                            maintaining high productivity.</li>
+                        <li>Fostered strong collaboration with fellow team members and consistently showed a willingness
+                            to provide assistance.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <section id="certificates" class="content-section">
+            <h2>Certificates <i class="fas fa-award"></i></h2>
+            <div class="card-container">
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./certi2.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Infosys: Software Engineering & Agile Development</h3>
+                        <p>A certificate from Infosys Springboard validating skills in fundamental software engineering
+                            principles and the Agile development lifecycle.</p>
+                        <a href="./certi2.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./Cognify\ _page-0001.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cognifyz Internship Certificate</h3>
+                        <p>A certificate recognizing the successful completion of the Front-End Development internship
+                            and commending my remarkable dedication and sincerity.</p>
+                        <a href="./Cognify _page-0001.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./codexcertificate_page-0001.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>CODEXINTERN Completion Certificate</h3>
+                        <p>Awarded for active participation in the CODEXINTERN virtual Front-End Development internship
+                            program from 1st to 31st August, 2025.</p>
+                        <a href="./codexcertificate_page-0001.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./recommendation_page-0001.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>CODEXINTERN Letter of Recommendation</h3>
+                        <p>A strong recommendation from the Co-Founder of CODEXINTERN highlighting my valuable
+                            contributions, excellent analytical skills, and high productivity.</p>
+                        <a href="./recommendation_page-0001.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./certificate1.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Infosys: Data Science</h3>
+                        <p>Course Completion Certificate from Infosys Springboard for successfully completing the course
+                            on Data Science.</p>
+                        <a href="./certificate1.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./Oracle - Copy_page-0001.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Oracle: OCI Data Science Professional</h3>
+                        <p>Recognized by Oracle Corporation as an Oracle Certified Professional for OCI 2025 Data
+                            Science.</p>
+                        <a href="./Oracle - Copy_page-0001.jpg" target="_blank" class="card-link">View Certificate<i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image"
+                            style="background-image: url('./javascript_certificate_page-0001.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>GeeksforGeeks: JavaScript</h3>
+                        <p>Successfully completed an 8-week course on JavaScript Full Course Online.</p>
+                        <a href="./javascript_certificate_page-0001.jpg" target="_blank" class="card-link">View
+                            Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./certi3.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Infosys: DBMS</h3>
+                        <p>Course Completion Certificate from Infosys Springboard on "Database Management System -
+                            Science Graduates".</p>
+                        <a href="./certi3.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./python_class_page-0001.jpg');"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>CODEXINTERN: Python Fundamentals</h3>
+                        <p>Was an active participant in the CODEXINTERN virtual training program in Python Fundamentals.
+                        </p>
+                        <a href="./python_class_page-0001.jpg" target="_blank" class="card-link">View Certificate <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card card-with-image">
+                    <div class="card-image-container">
+                        <div class="card-image" style="background-image: url('./python_certificate_page-0001.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pantech: Java Programming</h3>
+                        <p>Certificate of Participation for completing the 21 Days Java Programming Masterclass at
+                            Pantech e Learning.</p>
+                        <a href="./python_certificate_page-0001.jpg" target="_blank" class="card-link">View Certificate
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Me <i class="fas fa-paper-plane"></i></h2>
+        <p>Feel free to reach out! I'm always open to discussing new projects or opportunities.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/udaykiran3010/" target="_blank" aria-label="LinkedIn"
+                class="social-icon"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/udayk2122" target="_blank" aria-label="GitHub" class="social-icon"><i
+                    class="fab fa-github fa-2x"></i></a>
+            <a href="mailto:avulauday3010@gmail.com" target="_blank" aria-label="Email" class="social-icon"><i
+                    class="fas fa-envelope fa-2x"></i></a>
+        </div>
+        <p>&copy; 2025 AVULA UDAY KIRAN. All Rights Reserved.</p>
+    </footer>
+
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Resume Preview</h3>
+                <a href="./Uday_web_development_resume (3) - Copy.pdf" download="Uday_web_development_resume.pdf"
+                    class="resume-btn btn-download">
+                    <i class="fas fa-download"></i> Download
+                </a>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <iframe src="./Uday_web_development_resume (3) - Copy.pdf" frameborder="0" width="100%"
+                    height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
